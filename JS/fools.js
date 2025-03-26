@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const today = new Date();
-    if (today.getMonth() === 3 && today.getDate() === 1) {
+    if (today.getMonth() === 2 && today.getDate() === 26) {
         const img = document.createElement("img");
         img.src = "images/jumpscare.jpg";
         img.alt = "April Fools!";
@@ -16,9 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const audio = new Audio("/images/squeaky-jumpscare-2-102254.mp3");
         audio.play();
 
-        img.onload = () => {
-            alert("April Fools!");
-        };
 
         setTimeout(() => {
             img.remove();
