@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         setTimeout(() => {
             img.remove();
-        }, 500);
+        }, 300);
     }
 });
 
