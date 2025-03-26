@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const today = new Date();
-    if (today.getMonth() === 2 && today.getDate() === 1) {
+    if (today.getMonth() === 3 && today.getDate() === 1) {
         const img = document.createElement("img");
         img.src = "images/jumpscare.jpg";
         img.alt = "if you see this and no image is displayed, there was gonna be a jumpscare here so scare yourself and idk how you could read this bc this lasts for 1/2 a second.";
