@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const today = new Date();
-    if (today.getMonth() === 2 && today.getDate() === 26) {
+    if (today.getMonth() === 3 && today.getDate() === 1) {
         const img = document.createElement("img");
         img.src = "images/jumpscare.jpg";
         img.alt = "April Fools!";
